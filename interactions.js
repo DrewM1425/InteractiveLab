@@ -10,7 +10,7 @@ var overflow = function()
       .style("background-image", "url('castle3_background.png')");
     
     d3.select("body")
-      .style("color", "black");
+      .style("color", "white");
     
     d3.selectAll("img").remove();
     d3.selectAll("h1").remove();
@@ -31,7 +31,7 @@ var magic = function()
       .style("background-image", "url('castle3_background.png')");
     
     d3.select("body")
-      .style("color", "black");
+      .style("color", "white");
     
     d3.selectAll("img").remove();
     d3.selectAll("h1").remove();
@@ -115,7 +115,7 @@ var fightKnight = function()
       .style("background-image", "url('castle3_background.png')");
     
     d3.select("body")
-      .style("color", "black");
+      .style("color", "white");
     
     d3.selectAll("img").remove();
     d3.selectAll("p").remove();
