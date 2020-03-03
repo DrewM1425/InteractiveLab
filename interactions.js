@@ -7,15 +7,17 @@ var changePic = function(that,picName)
 var overflow = function()
 {
     d3.select("body")
-      .style("background-image", "url('castle_background.webp')");
+      .style("background-image", "url('castle3_background.png')");
     
     d3.select("body")
       .style("color", "black");
     
     d3.selectAll("img").remove();
+    d3.selectAll("h1").remove();
+    d3.selectAll("h2").remove();
     d3.selectAll("p").remove();
     d3.select("body")
-      .text("You win!");
+      .append("h2").text("You win!");
     d3.select("body")
       .append("img")
         .attr("src", "crown.jpg");
@@ -26,15 +28,17 @@ var overflow = function()
 var magic = function()
 {
     d3.select("body")
-      .style("background-image", "url('castle_background.webp')");
+      .style("background-image", "url('castle3_background.png')");
     
     d3.select("body")
       .style("color", "black");
     
     d3.selectAll("img").remove();
+    d3.selectAll("h1").remove();
+    d3.selectAll("h2").remove();
     d3.selectAll("p").remove();
     d3.select("body")
-      .text("You win!");
+      .append("h2").text("You win!");
     d3.select("body")
       .append("img")
         .attr("src", "crown.jpg");
@@ -46,8 +50,10 @@ var charge = function()
 {
     d3.selectAll("img").remove();
     d3.selectAll("p").remove();
+    d3.selectAll("h1").remove();
+    d3.selectAll("h2").remove();
     d3.select("body")
-      .text("You lose...");
+      .append("h2").text("You lose...");
     d3.select("body")
       .append("img")
         .attr("src", "dead.webp");
@@ -62,8 +68,10 @@ var runaway = function()
     
     d3.selectAll("img").remove();
     d3.selectAll("p").remove();
+    d3.selectAll("h1").remove();
+    d3.selectAll("h2").remove();
     d3.select("body")
-      .text("You lose...");
+      .append("h2").text("You lose...");
     d3.select("body")
       .append("img")
         .attr("src", "dragon-36748_960_720.png");
@@ -75,8 +83,10 @@ var fightProgrammer = function()
 {
     d3.selectAll("img").remove();
     d3.selectAll("p").remove();
+    d3.selectAll("h1").remove();
+    d3.selectAll("h2").remove();
     d3.select("body")
-      .text("You lose...");
+      .append("h2").text("You lose...");
     d3.select("body")
       .append("img")
         .attr("src", "dead.webp");
@@ -88,8 +98,10 @@ var fightWizard = function()
 {
     d3.selectAll("img").remove();
     d3.selectAll("p").remove();
+    d3.selectAll("h1").remove();
+    d3.selectAll("h2").remove();
     d3.select("body")
-      .text("You lose...");
+      .append("h2").text("You lose...");
     d3.select("body")
       .append("img")
         .attr("src", "dead.webp");
@@ -100,15 +112,17 @@ var fightWizard = function()
 var fightKnight = function()
 {
     d3.select("body")
-      .style("background-image", "url('castle_background.webp')");
+      .style("background-image", "url('castle3_background.png')");
     
     d3.select("body")
       .style("color", "black");
     
     d3.selectAll("img").remove();
     d3.selectAll("p").remove();
+    d3.selectAll("h1").remove();
+    d3.selectAll("h2").remove();
     d3.select("body")
-      .text("You win!");
+      .append("h2").text("You win!");
     d3.select("body")
       .append("img")
         .attr("src", "crown.jpg");
