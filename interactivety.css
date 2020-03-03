@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+
+body {
+    background-image: url("forest_background.jpg");
+    background-size: 100% 100%;
+    font-family: 'Trade Winds', cursive;
+    color:white;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    
+}
